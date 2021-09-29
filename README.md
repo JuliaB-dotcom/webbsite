@@ -1,5 +1,5 @@
 # webbsite
-[![Build Status](https://forthebadge.com/images/badges/built-with-love.svg)
+![Build Status](https://forthebadge.com/images/badges/built-with-love.svg)
 
 My first project
 
