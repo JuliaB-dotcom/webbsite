@@ -1,7 +1,7 @@
 
 import troja1 from "/src/images/troja1.jpeg"
 import troja2 from "/src/images/troja2.jpeg"
-import '/src/css/Shop.css'
+import '/src/Shop.css'
 function Start() {
 
   return (

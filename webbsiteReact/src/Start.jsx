@@ -1,6 +1,6 @@
 import troja1 from "/src/images/troja1.jpeg"
 import troja2 from "/src/images/troja2.jpeg"
-import '/src/css/Start.css'
+import '/src/Start.css'
 function Start() {
   return (
     <div>
