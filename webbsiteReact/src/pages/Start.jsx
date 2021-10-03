@@ -7,6 +7,7 @@ function Start() {
       <div className="quoteDiv">
         <h2 className="quote">Reuse the past recycle the present save the future</h2>
       </div>
+      <div className="products">
       <div className="startProduct1">
         <img src={troja2} alt="img1" />
       </div>
@@ -17,10 +18,19 @@ function Start() {
 
       <div className="startProduct2">
         <img src={troja1} alt="img2" />
-      </div>
+        </div>
+      
       <div className="startText2">
         <p>titel</p>
         <p>pris</p>
+      </div>
+      <div className="startProduct3">
+        <img src={troja1} alt="img2" />
+        </div>
+      <div className="startText3">
+        <p>titel</p>
+        <p>pris</p>
+        </div>
       </div>
     </div>
   )

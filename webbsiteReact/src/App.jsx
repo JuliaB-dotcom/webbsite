@@ -1,7 +1,7 @@
 /*import { useState } from 'react'
 import logo from './logo.svg'*/
 import './App.css'
-import Start from "./Start"
+import Start from "./pages/Start"
 /*Kan vara bra att använda jsx filer till de Componenter som innehåller jsx*/
 /*import Products from "./Components/Products/Products";*/
 
