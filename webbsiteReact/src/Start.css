@@ -13,7 +13,7 @@ body{
 }
 .products img{
   
-  box-shadow: 0 4px 8px 0 rgba(0, 0,0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 1px 8px 0 rgba(0, 0,0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
 }
 .products{
 
@@ -35,12 +35,12 @@ width:57.2%;
 }
 
 .startProduct4 img{
-width:88%;
+width:90%;
 
 }
 
 .startProduct5 img{
-width:88%;
+width:90%;
 
 }
 .startProduct1{
@@ -105,7 +105,7 @@ margin-left:46%;
 .startText4{
   position:relative;
 margin-top:-6%;
-margin-left:46%;
+margin-left:27%;
 }
 .startText5{
   position:relative;
@@ -121,6 +121,12 @@ margin-left:25%;
     margin-top: 25%;
    margin-left:35%;
 }
-hr { display: block; overflow: hidden; border-style: inset; border-width: 1px;}
+hr { display: block; 
+  overflow: hidden; 
+  border-style: inset; 
+  border-width: 1px;
+  margin-left:-100%;
+  margin-top:20%;
+}
 
 

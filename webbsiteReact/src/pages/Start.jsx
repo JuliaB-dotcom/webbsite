@@ -32,13 +32,16 @@ function Start() {
         <p>pris</p>
         </div>
 
+        <hr/>
+          
         <div className="startProduct4">
           <img src={troja2} alt="img1" />
         </div>
-        <div className="startText5">
+        <div className="startText4">
           <p>titel</p>
           <p>pris</p>
         </div>
+
         <div className="startProduct5">
           <img src={troja2} alt="img1" />
         </div>
