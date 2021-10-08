@@ -4,10 +4,12 @@ import '/src/Start.css'
 function Start() {
   return (
     <div>
+      
       <div className="quoteDiv">
         <h2 className="quote">Reuse the past recycle the present save the future</h2>
       </div>
-      <div className="products">
+      <div className="background"></div>
+      {/* <div className="allProducts">
       <div className="startProduct1">
         <img src={troja2} alt="img1" />
       </div>
@@ -49,7 +51,7 @@ function Start() {
           <p>titel</p>
           <p>pris</p>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

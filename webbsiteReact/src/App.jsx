@@ -1,15 +1,35 @@
 /*import { useState } from 'react'
 import logo from './logo.svg'*/
 import './App.css'
+import '/src//Start.css'
 import Start from "./pages/Start"
+import Shop from "./pages/Shop"
 /*Kan vara bra att använda jsx filer till de Componenter som innehåller jsx*/
 /*import Products from "./Components/Products/Products";*/
-
+import {
+  BrowserRouter as Router,
+  Route,
+  Link
+} from 'react-router-dom'
 function App() {
 
 
   return (
-    <Start />
+    <div className="baseDiv">
+   
+      <Router>
+        <nav>
+          <Link to="/shop">SHOP</Link>
+          <Link to="/shop">KONTAKT</Link>
+          <Link to="/shop">OM</Link>
+          <Link to="/shop">GALLERI</Link>
+        </nav>
+        <Start />
+        <main>
+          <Route path="/shop" component={Shop} />
+          </main>
+      </Router> 
+    </div>
     )
   }
 
@@ -26,7 +46,7 @@ export default App
         <Link to="/gallerit">galleri</Link>
       </nav>
 
-      <main>
+   </div>
        
         <Route path="/" exact component={Start} />
         <Route path="/shop" component={Shop} />
