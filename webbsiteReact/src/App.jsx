@@ -19,6 +19,7 @@ function App() {
    
       <Router>
         <nav>
+          <Link to="/">START</Link>
           <Link to="/shop">SHOP</Link>
           <Link to="/shop">KONTAKT</Link>
           <Link to="/shop">OM</Link>
@@ -28,7 +29,11 @@ function App() {
         <main>
           <Route path="/" component={Start} />
           <Route path="/shop" component={Shop} />
-          </main>
+        </main>
+        <footer>
+          <p>Author: Julia Berg</p>
+          <p><a href="mailto:hege@example.com">katarina.solbacken@gmail.com</a></p>
+        </footer>
       </Router> 
     </div>
     )

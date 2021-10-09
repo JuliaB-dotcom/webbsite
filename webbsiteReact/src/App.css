@@ -3,10 +3,6 @@
 }
 .baseDiv{
 
-  /* background-image: url("images/knitting.jpg"); */
-  /*background-position:top, bottom;*/
-  /* background-repeat: no-repeat;
-  background-color: whitesmoke; */
   background-image: url("images/knitting.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -26,7 +22,7 @@ nav{
   display:flex;
   justify-content: space-between;
  
-  margin:0% 20%;
+  margin:0% 17%;
  margin-top: 9%;
 }
 a:active{
