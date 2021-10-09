@@ -7,7 +7,7 @@ function Start() {
   return (
     <div className="shopContainer">
 
-      <div className="products">
+      {/* <div className="products">
         <img src={troja1} alt="" />
         <img src={troja2} alt="" />
         <div className="description">
@@ -18,7 +18,7 @@ function Start() {
           <h5 className="price">pris</h5>
         </div>
 
-      </div>
+      </div> */}
     </div>
 
   )

@@ -3,13 +3,13 @@ import troja2 from "/src/images/troja2.jpeg"
 import '/src/Start.css'
 function Start() {
   return (
-    <div>
-      
+    <div >
+      <div className="startDiv">
       <div className="quoteDiv">
         <h2 className="quote">Reuse the past recycle the present save the future</h2>
       </div>
-      <div className="background"></div>
-      {/* <div className="allProducts">
+      
+      <div className="allProducts">
       <div className="startProduct1">
         <img src={troja2} alt="img1" />
       </div>
@@ -34,8 +34,8 @@ function Start() {
         <p>pris</p>
         </div>
 
-        <hr/>
-          
+        {/* <hr/> */}
+          <div className="background">
         <div className="startProduct4">
           <img src={troja2} alt="img1" />
         </div>
@@ -43,7 +43,7 @@ function Start() {
           <p>titel</p>
           <p>pris</p>
         </div>
-
+          </div>
         <div className="startProduct5">
           <img src={troja2} alt="img1" />
         </div>
@@ -51,7 +51,8 @@ function Start() {
           <p>titel</p>
           <p>pris</p>
         </div>
-      </div> */}
+        </div>
+      </div>
     </div>
   )
 }

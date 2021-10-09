@@ -24,8 +24,9 @@ function App() {
           <Link to="/shop">OM</Link>
           <Link to="/shop">GALLERI</Link>
         </nav>
-        <Start />
+        
         <main>
+          <Route path="/" component={Start} />
           <Route path="/shop" component={Shop} />
           </main>
       </Router> 
