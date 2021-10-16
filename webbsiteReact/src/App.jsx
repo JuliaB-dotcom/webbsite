@@ -27,8 +27,8 @@ function App() {
         </nav>
         
         <main>
-          <Route path="/" component={Start} />
-          <Route path="/shop" component={Shop} />
+          <Route path="/" exact component={Start} />
+          <Route path="/shop" exact component={Shop} />
         </main>
         <footer>
           <p>Author: Julia Berg</p>

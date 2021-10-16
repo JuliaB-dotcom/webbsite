@@ -2,6 +2,8 @@ import troja1 from "/src/images/troja1.jpeg"
 import troja2 from "/src/images/troja2.jpeg"
 import troja3 from "/src/images/troja3.jpeg"
 import '/src/Start.css'
+
+
 function Start() {
   return (
     <div >
@@ -11,13 +13,36 @@ function Start() {
       </div>
       
         <div className="flexProducts">
+{/* 
+          <startProducts
+            imgUrl:"",
+            text1:,
+            imgUrl:"",
+            imgUrl:"",
+            text2:,
+            text3:
+          
+          
+          /> */}
           <div className="img1">
             <img src={troja2} width="250" />
+          </div>
+          <div className="startText1">
+            <p>titel</p>
+            <p>pris</p>
           </div>
           <div className="img2">
           <img src={troja1}  height="200" />
           <img src={troja1}  height="200" />
-        </div>
+          </div>
+          <div className="startText2">
+            <p>titel</p>
+            <p>pris</p>
+          </div>
+          <div className="startText2">
+            <p>titel</p>
+            <p>pris</p>
+          </div>
           </div>
       {/* <div>
         <img src={troja2} alt="img1" />
