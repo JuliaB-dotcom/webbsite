@@ -25,75 +25,50 @@ function Start() {
           
           /> */}
           <div className="img1">
-            <img src={troja2} width="250" />
+            <img src={troja2} width="150" />
           </div>
-          <div className="startText1">
+          <div className="imgText1">
             <p>titel</p>
             <p>pris</p>
           </div>
           <div className="img2">
-          <img src={troja1}  height="200" />
-          <img src={troja1}  height="200" />
+          <img src={troja1}  width="100" />
+          <img src={troja1}  width="100" />
           </div>
-          <div className="startText2">
+          <div className="text2">
+          <div className="imgText2">
             <p>titel</p>
             <p>pris</p>
           </div>
-          <div className="startText2">
+          <div className="imgText2">
             <p>titel</p>
             <p>pris</p>
-          </div>
-          </div>
-      {/* <div>
-        <img src={troja2} alt="img1" />
-          </div>
-      <div className="startText1">
-        <p>titel</p>
-        <p>pris</p>
-      </div>
-
-      <div>
-        <img src={troja1} alt="img2" />
+            </div>
+            </div>
           </div>
       
-      <div className="startText2">
-        <p>titel</p>
-        <p>pris</p>
-      </div>
-      <div>
-        <img src={troja1} alt="img2" />
-          </div>
-      <div className="startText3">
-        <p>titel</p>
-        <p>pris</p>
-        </div> */}
-       
-        {/* <hr/> */}
-          <div className="background">
-        {/* <div className="startProduct4">
-          <img src={troja3} alt="img1" />
-        </div> */}
+          <div className="img4">
         </div>
-        <div className="startText4">
+        <div className="imgText4">
           <p>titel</p>
           <p>pris</p>
         </div>
         
-        <div className="startProduct5">
-          <img src={troja2} alt="img1" />
-          <img src={troja2} alt="img1" />
-          <img src={troja2} alt="img1" />
+        <div className="img5">
+          <img src={troja2} alt="img1" width="120" />
+          <img src={troja2} alt="img1" width="120" />
+          <img src={troja2} alt="img1" width="120" />
         </div>
         <div className="text5">
-        <div className="startText5">
+        <div className="imgText5">
           <p>titel</p>
           <p>pris</p>
         </div>
-        <div className="startText5">
+        <div className="imgText5">
           <p>titel</p>
           <p>pris</p>
         </div>
-        <div className="startText5">
+        <div className="imgText5">
           <p>titel</p>
           <p>pris</p>
         </div>
