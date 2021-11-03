@@ -34,7 +34,7 @@ function Start() {
             <p>pris</p>
           </div>
             </div>
-      
+      <div className="img4Background"></div>
           <div className="img4">
           </div>
       
