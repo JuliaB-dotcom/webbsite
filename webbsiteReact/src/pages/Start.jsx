@@ -2,6 +2,9 @@ import troja1 from "/src/images/troja1.jpeg"
 import troja2 from "/src/images/troja2.jpeg"
 import img1 from "/src/images/img1.jpeg"
 import img2 from "/src/images/img2.jpg"
+import art1 from "/src/images/art1.jpg"
+import art2 from "/src/images/art2.jpg"
+import art3 from "/src/images/art3.jpg"
 import '/src/Start.css'
 
 
@@ -36,9 +39,9 @@ function Start() {
           </div>
       
         <div className="img5">
-          <img src={troja2} alt="img1" width="200" />
-          <img src={troja2} alt="img1" width="200" />
-          <img src={troja2} alt="img1" width="200" />
+          <img src={art1} alt="img1" width="250" />
+          <img src={art2} alt="img1" width="250" />
+          <img src={art3} alt="img1" width="250" />
         </div>
         <div className="text5">
         <div className="imgText5">

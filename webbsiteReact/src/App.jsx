@@ -4,6 +4,8 @@ import './App.css'
 import '/src//Start.css'
 import Start from "./pages/Start"
 import Shop from "./pages/Shop"
+import insta from "/src/images/insta.jpeg"
+import copyright from "/src/images/copy.png"
 /*Kan vara bra att använda jsx filer till de Componenter som innehåller jsx*/
 /*import Products from "./Components/Products/Products";*/
 import {
@@ -31,8 +33,9 @@ function App() {
           <Route path="/shop" exact component={Shop} />
         </main>
         <footer>
-          <p>Author: Julia Berg</p>
+          <a href="https://www.instagram.com/katarina1958">Följ mig på Instagram<img className="instagram" src={insta}/></a>
           <p><a href="mailto:hege@example.com">katarina.solbacken@gmail.com</a></p>
+          <img className="copySymbol" src={copyright} width="15" /> <p className="copyText">Julia Berg</p>
         </footer>
       </Router> 
     </div>

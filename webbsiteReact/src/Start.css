@@ -10,22 +10,22 @@
   margin-left:35%;
   margin-bottom: 10%;
 }
-@media screen and (max-width:1080px){
+@media screen and (max-width:2000px){
   
 
 .flexProducts{
   display:flex;
   justify-content:center;
   gap:2%;
-  margin-top:390px;
+  margin-top:444px;
   margin-left:-50%;
  
 }
 .text1{
-  margin-left: 9%; 
+  margin-left: 13%; 
 }
 .text2{
-  margin-left:60%;
+  margin-left:51%;
   margin-top: -51px;
 }
 
@@ -35,13 +35,14 @@
 }
 
 .img4{
-  background-image: url("images/background.jpeg");
+  background-image: url("images/necklace.jpg");
   /* background-color:rgb(179, 179, 166); */
+  background-repeat: no-repeat;
   background-size: 100%, 180%;
   width:155%;
-  height:55vw;
+  height:64vw;
   margin-left:-55%;
-  margin-top:25%;
+  margin-top:18%;
 }
 
 .imgText4{
@@ -63,16 +64,18 @@
   display:flex;
   position:relative;
   text-align:center;
-  gap:22%;
+  gap:25%;
+  margin-left:-8px;
   
 }
 .quote{
   display:flex;
   font-family: cursive;
   text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.36);    
-  font-size:1.5rem; 
-  margin-top: 21%;
-  margin-left:-20%;
+  font-size:2.5rem; 
+  margin-top: 16%;
+  margin-left: 4%;
+  width:8em;
   /* color:#f9f7f7; */
   text-align:center;
 }
