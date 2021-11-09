@@ -12,6 +12,9 @@ width:100%; */
 
 /* }  */
 .shopContainer{
+    display:flex;
+    flex-wrap: wrap;
+    gap:4%;
     margin-top:60%;
     margin-left:30%;
 }
