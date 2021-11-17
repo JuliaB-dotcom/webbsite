@@ -1,22 +1,19 @@
-import troja1 from "/src/images/troja1.jpeg"
-import troja2 from "/src/images/troja2.jpeg"
+
 import img1 from "/src/images/img1.jpeg"
 import img2 from "/src/images/img2.jpg"
 import art1 from "/src/images/art1.jpg"
 import art2 from "/src/images/art2.jpg"
 import art3 from "/src/images/art3.jpg"
-import '/src/Start.css'
+import '/src/css/Start.css'
 
 
 function Start() {
   return (
     <div >
       <div className="startDiv">
-      <div className="quoteDiv">
-        <h2 className="quote">Reuse the past recycle the present save the future</h2>
-      </div>
-      
+        <p className="aboutText">Handsydda plagg</p>
         <div className="flexProducts">
+          
           <div>
             <img className="img1" src={img1} width="300" />
             <div className="text1">
@@ -40,7 +37,7 @@ function Start() {
       <div className="img4Background"></div>
           <div className="img4">
           </div>
-      
+        <p className="aboutText2">Akvareller</p>
         <div className="flexProducts2">
           <div>
             <img className="img5" src={art1} width="250" />
@@ -57,7 +54,7 @@ function Start() {
             </div>
           </div>
           <div>
-            <img className="img7" src={art3} alt="img3" width="250" />
+            <img className="img7" src={art3} alt="img3" width="236" />
             <div className="imgText7">
               <p>titel</p>
               <p>pris</p>

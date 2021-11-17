@@ -1,6 +1,6 @@
 import ShopProducts from "/src/components/ShopProducts.jsx"
 import productsData from "/src/productsData.js"
-import '/src/Shop.css'
+import '/src/css/Shop.css'
 function Start() {
 
 //   You could also write like this and after the key add an Products component where the product(the one declared in Products.js)

@@ -1,0 +1,21 @@
+
+.OmDiv{
+  margin-left: 13%;
+}
+.firstPart,.secondPart{
+  font-family: cursive;
+  font-size: 2rem;
+  width: 22em;
+}
+.textDiv{
+ margin-left: 34%; 
+ margin-top: -34%;
+}
+.OmImg{
+  border-radius: 10px;
+
+}
+.OmImgDiv{
+margin-left: 7%;
+margin-top: 40%;
+}

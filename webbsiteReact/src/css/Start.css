@@ -10,6 +10,13 @@
   margin-top: 3%;
   margin-bottom: 10%;
 }
+.aboutText{
+  font-family: cursive;
+  font-size: 1.5rem;
+  margin-top: 464px;
+  margin-bottom: -445px;
+  margin-left: 17%;
+}
 
 .flexProducts{
   display: flex;
@@ -31,10 +38,14 @@
 .imgText1,.imgText2,.imgText3,.imgText4,.imgText5,.imgText6,.imgText7{
   display: flex;
   gap: 10px;
+  
+}
+.imgText5,.imgText6,.imgText7{
+margin-left:62%;
 }
 
 .img4{
-  background-image: url("images/background.jpeg");
+  background-image: url("src/images/background.jpeg");
   justify-content: center;
   background-repeat: no-repeat;
   position: relative;
@@ -61,6 +72,14 @@
   margin-top: -16%;
   margin-left: 22%;
 }
+.aboutText2{
+  font-family: cursive;
+  font-size: 1.5rem;
+  margin-top: 100px;
+  margin-bottom: -155px;
+  margin-left: 17%;
+}
+
 .flexProducts2{
 
   display: flex;
@@ -79,7 +98,7 @@
   margin-left: 65%;
   
 }
-.quote{
+/* .quote{
   display: flex;
   font-family: cursive;
   text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.36);    
@@ -88,8 +107,8 @@
   margin-left: 4%;
   width: 8em;
   /* color:#f9f7f7; */
-  text-align: center;
-}
+  /* text-align: center; */
+/* }  */
 @media screen and (max-width:800px) {
 .flexProducts2{
   display:flex;
@@ -108,9 +127,9 @@
   margin-top: -50px; 
   margin-left: -5%;
 }
-.quote{
+/* .quote{
   font-size:1.6rem; 
-}
+} */
 }
 
 @media screen and (max-width:375px) {
