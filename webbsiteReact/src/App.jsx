@@ -22,11 +22,10 @@ function App() {
 
 
   return (
-    //<div className="baseDiv">
     <div className="baseDiv">
-    <Router>
-    
-
+      
+      <Router>
+  
           <nav class="mainMenu">
             <h1 class="logo">Katarina.B</h1>
             <div class="menuContainer">
@@ -50,26 +49,24 @@ function App() {
           </nav>
           <div className="backgroundImg"></div>
           <h2 className="quote">Reuse the past recycle the present save the future</h2>
-      <Routes>
-     
+
+        <main>
+          <Routes>
           <Route path="/" exact component={Start} />
           <Route path="/shop" exact component={Shop} />
+          <Route path="/om" exact component={Om} />
             <Route path="/om" exact component={Om} />
             <Route path="/galleri" exact component={Galleri} />
+          </Routes>
+        </main>
       
-        
-        </Routes> 
-        <footer>
-          <a href="https://www.instagram.com/katarina1958">Följ mig på Instagram<img className="instagram" src={insta} /></a>
-          <p><a href="mailto:hege@example.com">katarina.solbacken@gmail.com</a></p>
-          <p className="copyText"> <img className="copySymbol" src={copyright} width="15" /> Julia Berg</p>
-        </footer>
-    </Router>
-     
+      </Router> 
+      <footer>
+        <a href="https://www.instagram.com/katarina1958">Följ mig på Instagram<img className="instagram" src={insta} /></a>
+
+      </footer>
     </div>
     
     )
   }
-
-
 export default App
