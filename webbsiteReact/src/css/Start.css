@@ -13,8 +13,8 @@
 .aboutText{
   font-family: cursive;
   font-size: 1.5rem;
-  margin-top: 464px;
-  margin-bottom: -445px;
+  margin-top: 299px;
+  margin-bottom: -335px;
   margin-left: 17%;
 }
 
@@ -59,7 +59,7 @@ margin-left:62%;
 .img4Background{
   background-color:#cdcdcd;
   position: absolute;
-  width: 100vw;
+  width: 100%;
   height: 42.2vw;
   margin-left: -35%;
   margin-top: 11.7%;
@@ -109,6 +109,20 @@ margin-left:62%;
   /* color:#f9f7f7; */
   /* text-align: center; */
 /* }  */
+@media (min-width: 360px) {
+  .quote {
+    font-size: 1.1rem;
+    margin-left: 8%;
+  }
+  .baseDiv{
+    width: 100%;
+  }
+  a:link{
+    font-size: 0.8em;
+  }
+
+  
+}
 @media screen and (max-width:800px) {
 .flexProducts2{
   display:flex;
