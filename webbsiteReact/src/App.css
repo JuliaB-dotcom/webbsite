@@ -83,7 +83,7 @@ footer{
   font-size: 1.6rem; 
 }
 }
-/*@media (max-width: 768px) {
+@media (max-width: 768px) {
   
   body{
     overflow-x: hidden;
@@ -142,4 +142,4 @@ footer{
 .logo{
   margin: -31px 84% 18px;
 }
-}*/
+}

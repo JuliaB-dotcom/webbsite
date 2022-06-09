@@ -41,7 +41,6 @@ function App() {
             <ul class="menuItems">
               <li><Link to="/">START</Link></li>
               <li><Link to="/shop">SHOP</Link></li>
-              <li><Link to="/kontakt">KONTAKT</Link></li>
               <li><Link to="/om">OM</Link></li>
               <li><Link to="/galleri">GALLERI</Link></li>
             </ul>
@@ -52,11 +51,10 @@ function App() {
 
         <main>
           <Routes>
-          <Route path="/" exact component={Start} />
-          <Route path="/shop" exact component={Shop} />
-          <Route path="/om" exact component={Om} />
-            <Route path="/om" exact component={Om} />
-            <Route path="/galleri" exact component={Galleri} />
+          <Route path="/" element={<Start/>} />
+          <Route path="/shop" element={<Shop/>} />
+          <Route path="/om" element={Om} />
+          <Route path="/galleri" element={<Galleri/>} />
           </Routes>
         </main>
       
