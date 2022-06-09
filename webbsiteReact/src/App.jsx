@@ -8,6 +8,8 @@ import Om from './pages/Om'
 import Galleri from './pages/Galleri'
 import insta from "/src/images/insta.jpeg"
 import copyright from "/src/images/copy.png"
+import React, { useEffect, useState } from 'react'
+
 /*Kan vara bra att använda jsx filer till de Componenter som innehåller jsx*/
 /*import Products from "./Components/Products/Products";*/
 import {
@@ -17,9 +19,19 @@ import {
   Routes
 } from 'react-router-dom'
 
+/*useEffect(() => {
+  const script = document.createElement('script');
+  script.src = "./app.js";
+  script.async = true;
+  document.body.appendChild(script);
+  return () => {
+    document.body.removeChild(script);
+  }
+}, []);*/
 
 function App() {
-
+  const [sidebar, setSidebar] = useState(false);
+  const showSidebar = () => setSidebar(!sidebar);
 
   return (
     <div className="baseDiv">
@@ -30,7 +42,7 @@ function App() {
             <h1 class="logo">Katarina.B</h1>
             <div class="menuContainer">
               <input type="checkbox" name="" id=""></input>
-              <div class="hamburgerLines">
+              <div class="hamburgerLines" onClick={showSidebar}>
                 <span class="line line1"></span>
                 <span class="line line2"></span>
                 <span class="line line3"></span>
@@ -38,7 +50,7 @@ function App() {
             </div>
 
 
-            <ul class="menuItems">
+          <ul class={sidebar ? 'menuItems active' : 'itemMenu'}>
               <li><Link to="/">START</Link></li>
               <li><Link to="/shop">SHOP</Link></li>
               <li><Link to="/om">OM</Link></li>
@@ -53,7 +65,7 @@ function App() {
           <Routes>
           <Route path="/" element={<Start/>} />
           <Route path="/shop" element={<Shop/>} />
-          <Route path="/om" element={Om} />
+          <Route path="/om" element={<Om/>} />
           <Route path="/galleri" element={<Galleri/>} />
           </Routes>
         </main>
@@ -65,6 +77,7 @@ function App() {
       </footer>
     </div>
     
-    )
-  }
+  )
+}
+
 export default App
