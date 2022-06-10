@@ -29,24 +29,21 @@ function App() {
     <div className="baseDiv">
       
       <Router>
+       
+         
         
           <nav class="mainMenu">
             <div class="menuContainer">
-            <div class="shoppingItems" onClick={showSidebar}>
-              <h1 class="logo">Katarina.B</h1>
-              <Badge badgeContent={2} color='secondary'></Badge>
-              <AddShoppingCartIcon></AddShoppingCartIcon>
-            </div>
+              <input type="checkbox" name="" id=""></input>
               <div class="hamburgerLines" onClick={showSidebar}>
                 <span class="line line1"></span>
                 <span class="line line2"></span>
               <span class="line line3"></span>
              
-            </div>
-            
+              </div>
           </div>
+          <h1 class="logo">Katarina.B</h1>
           
-
           <ul class={sidebar ? 'menuItems active' :'itemsMenu'}>
               <li><Link to="/">START</Link></li>
               <li><Link to="/shop">SHOP</Link></li>
@@ -54,6 +51,10 @@ function App() {
               <li><Link to="/galleri">GALLERI</Link></li>
           </ul>
           
+          <div class="shoppingItems">
+          <Badge badgeContent={2} color='secondary'></Badge>
+            <AddShoppingCartIcon></AddShoppingCartIcon>
+          </div>
           </nav>
           <div className="backgroundImg"></div>
           <h2 className="quote">Reuse the past recycle the present save the future</h2>

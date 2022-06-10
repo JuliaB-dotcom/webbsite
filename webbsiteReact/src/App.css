@@ -15,7 +15,7 @@
 }
 .logo{
   font-size: 1.2rem;
-  letter-spacing: 5px
+  letter-spacing: 5px;
 }
 .mainMenu{
   display: flex;
@@ -100,7 +100,7 @@ footer{
     width: 35px;
     position: absolute;
     top: 17px;
-    left: 44px;
+    left: 144px;
     z-index: 2;
     display: flex;
     flex-direction: column;
@@ -161,10 +161,6 @@ ul.menuItems.active{
   margin: 21px 24px;
 }
 
-.logo{
-  margin: -31px 84% 18px;
-}
-
 .css-i4bv87-MuiSvgIcon-root {
   margin-top: 21px;
   margin-left: 405px;
@@ -172,5 +168,12 @@ ul.menuItems.active{
 .css-1c32n2y-MuiBadge-root {
   margin-top: -52px;
   left: 432px;
+}
+.shoppingItems{
+  margin-left: -301px
+}
+.logo{
+margin-left: 310%;
+text-align: center;
 }
 }
