@@ -1,5 +1,4 @@
-/*import { useState } from 'react'
-import logo from './logo.svg'*/
+
 import './App.css'
 import '/src/css/Start.css'
 import Start from "./pages/Start"
@@ -9,6 +8,8 @@ import Galleri from './pages/Galleri'
 import insta from "/src/images/insta.jpeg"
 import copyright from "/src/images/copy.png"
 import React, { useEffect, useState } from 'react'
+import Badge from '@mui/material/Badge';
+import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 
 /*Kan vara bra att använda jsx filer till de Componenter som innehåller jsx*/
 /*import Products from "./Components/Products/Products";*/
@@ -19,15 +20,6 @@ import {
   Routes
 } from 'react-router-dom'
 
-/*useEffect(() => {
-  const script = document.createElement('script');
-  script.src = "./app.js";
-  script.async = true;
-  document.body.appendChild(script);
-  return () => {
-    document.body.removeChild(script);
-  }
-}, []);*/
 
 function App() {
   const [sidebar, setSidebar] = useState(false);
@@ -37,26 +29,31 @@ function App() {
     <div className="baseDiv">
       
       <Router>
-  
+        
           <nav class="mainMenu">
-            <h1 class="logo">Katarina.B</h1>
             <div class="menuContainer">
-              <input type="checkbox" name="" id=""></input>
+            <div class="shoppingItems" onClick={showSidebar}>
+              <h1 class="logo">Katarina.B</h1>
+              <Badge badgeContent={2} color='secondary'></Badge>
+              <AddShoppingCartIcon></AddShoppingCartIcon>
+            </div>
               <div class="hamburgerLines" onClick={showSidebar}>
                 <span class="line line1"></span>
                 <span class="line line2"></span>
-                <span class="line line3"></span>
-              </div>
+              <span class="line line3"></span>
+             
             </div>
+            
+          </div>
+          
 
-
-          <ul class={sidebar ? 'menuItems active' : 'itemMenu'}>
+          <ul class={sidebar ? 'menuItems active' :'itemsMenu'}>
               <li><Link to="/">START</Link></li>
               <li><Link to="/shop">SHOP</Link></li>
               <li><Link to="/om">OM</Link></li>
               <li><Link to="/galleri">GALLERI</Link></li>
-            </ul>
-
+          </ul>
+          
           </nav>
           <div className="backgroundImg"></div>
           <h2 className="quote">Reuse the past recycle the present save the future</h2>
@@ -73,6 +70,8 @@ function App() {
       </Router> 
       <footer>
         <a href="https://www.instagram.com/katarina1958">Följ mig på Instagram<img className="instagram" src={insta} /></a>
+        <p><a href="mailto:hege@example.com">katarina.solbacken@gmail.com</a></p>
+        <p className="copyText"> <img className="copySymbol" src={copyright} width="15" /> Julia Berg</p>
 
       </footer>
     </div>
