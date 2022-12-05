@@ -12,6 +12,7 @@ import copyright from "/src/images/copy.png"
 import {
   BrowserRouter as Router,
   Route,
+  Routes,
   Link
 } from 'react-router-dom'
 
@@ -35,9 +36,11 @@ function App() {
           <h2 className="quote">Reuse the past recycle the present save the future</h2>
        
         <main>
+          <Routes>
           <Route path="/" exact component={Start} />
           <Route path="/shop" exact component={Shop} />
           <Route path="/om" exact component={Om} />
+          </Routes>
         </main>
         <footer>
           <a href="https://www.instagram.com/katarina1958">Följ mig på Instagram<img className="instagram" src={insta}/></a>
